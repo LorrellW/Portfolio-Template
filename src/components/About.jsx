@@ -37,12 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        With seven years of experience as an Air Force Special Operator, 
+        I bring a wealth of valuable skills to my new career in computer science. 
+        My military background has instilled in me strong leadership, teamwork, 
+        and problem-solving abilities, which have been instrumental in my pursuit 
+        of a degree at the University of Missouri-Kansas City.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

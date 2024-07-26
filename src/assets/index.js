@@ -3,7 +3,7 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
+import logo from './logo/myLogo.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/Lorrell-mountain.png';
@@ -37,11 +37,12 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import java from './tech/java.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import coverhunt from './company/USAF.png';
+import microverse from './company/PGE.png';
+import kelhel from './company/BlueSymphony.png';
+import dcc from './company/queue-brand-mark-app-icon.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';

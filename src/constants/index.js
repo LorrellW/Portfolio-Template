@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+
 } from '../assets';
 
 export const navLinks = [
@@ -58,7 +59,7 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Database Implementation',
     icon: prototyping,
   },
 ];
@@ -124,32 +125,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'USAF Combat Control',
+    company_name: 'US Government',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2013 - Jan 2019',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Drone Pilot',
+    company_name: 'Pacific Gas and Electric',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Dec 2020 - Dec 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Junior Front-End Web Developer',
+    company_name: 'Blue Symphony internship',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'June 2023 - Aug 2023',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Queue Baneker Collective',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'May 2024 - Present',
   },
 ];
 
