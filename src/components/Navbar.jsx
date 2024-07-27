@@ -23,8 +23,8 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[150px] sm:h-[70px] w-[100px] h-[100px] object-contain"
-          />
+            className="absolute top-0.5 left-0 sm:w-[250px] sm:h-[70px] w-[150px] h-[100px] object-contain"
+       />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (

@@ -14,19 +14,11 @@ import {
   git,
   figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
-  microverse,
+  microverse, java, firebase, cplusplus,
+    q1,q2,q3,q4,q5,
 
 } from '../assets';
 
@@ -98,18 +90,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
   },
@@ -121,6 +101,19 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'java',
+    icon: java,
+  },
+  {
+    name: 'firebase',
+    icon: firebase,
+  },
+  {
+    name: 'cplusplus',
+    icon: cplusplus,
+  },
+
 ];
 
 const experiences = [
@@ -157,8 +150,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'main',
+    description: 'Main landing page for Queue',
     tags: [
       {
         name: 'react',
@@ -173,15 +166,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: q1,
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'chat',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      ' A prototype chat build',
     tags: [
       {
         name: 'react',
@@ -196,14 +187,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: q2,
     repo: 'https://github.com/shaqdeff/Leaderboard',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Likes',
+    description: 'likes tab',
     tags: [
       {
         name: 'nextjs',
@@ -218,13 +209,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: q3,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
+    name: ' figma design',
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     tags: [
       {
@@ -240,15 +231,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: q4,
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'matches',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'matches tab',
     tags: [
       {
         name: 'nextjs',
@@ -263,7 +252,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: q5,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
